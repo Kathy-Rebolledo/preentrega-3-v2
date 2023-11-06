@@ -1,0 +1,39 @@
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .grid-container .grid-items {
+        grid-template-columns: repeat(2, 50%);
+    }
+    /* Actividades de Verano */
+    .verano .grid-container-verano {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    /* Actividades de Invierno */
+    .invierno .grid-container-invierno {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .grid-container .grid-items {
+        grid-template-columns: repeat(3, 33.3%);
+    }
+    
+    /* Actividades de Verano */
+    .verano .grid-container-verano {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    /* Actividades de Invierno */
+    .invierno .grid-container-invierno {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+} 

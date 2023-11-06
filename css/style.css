@@ -1,0 +1,338 @@
+/*Selector Universal*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header */
+header {
+  background-color: #81d8d0;
+  position: sticky;
+  top: 0px;
+  box-shadow: 0px 5px 20px -11px rgba(0, 0, 0, 0.62);
+  z-index: 10;
+  /* Logo de la empresa */
+  /* Icono toggler */
+}
+header .navbar-brand img {
+  width: 250px;
+  margin-left: -20px;
+  margin-top: -20px;
+  transition: 0.6s;
+}
+header .navbar-brand img:hover {
+  transform: scale(1.15);
+}
+header .navbar-toggler {
+  border: none;
+}
+header .navbar-toggler:hover {
+  box-shadow: none;
+}
+header .collapse {
+  margin-right: 10px;
+}
+header .collapse .nav-item {
+  font-size: 1.15rem;
+  font-weight: 635;
+}
+header .collapse .nav-item .nav-link:hover {
+  color: rgb(222, 239, 248);
+}
+
+/* Home */
+.home-Banner {
+  background-image: url(../media/san-pedro-de-atacama-laguna-lejia.jpg);
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 200px;
+  align-items: left;
+}
+.home-Banner h1 {
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem;
+  margin-left: 20px;
+  color: white;
+  font-weight: 600;
+}
+.home-Banner p {
+  font-family: "Lato", sans-serif;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  background-color: rgba(249, 249, 249, 0.347);
+  padding: 2px 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px -1px rgba(164, 164, 164, 0.532);
+  margin-left: 20px;
+  width: 25rem;
+}
+
+.recomendaciones h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  color: slategrey;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.grid-container {
+  margin-bottom: 30px;
+}
+.grid-container .grid-items {
+  width: 100%;
+  margin: auto;
+  display: grid;
+}
+.grid-container .grid-items .photo {
+  margin: 5px;
+}
+.grid-container .grid-items img {
+  width: 100%;
+  height: 100%;
+}
+
+/*Conoce Chile*/
+section div h1 {
+  margin-top: 3rem;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: "Lato", sans-serif;
+}
+section div img {
+  margin-bottom: 1rem;
+  display: block;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+section .texto {
+  padding: 20px;
+}
+section .texto h2 {
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+}
+section .texto p {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+}
+
+/*Actividades de Verano*/
+.verano-Banner {
+  background-image: url(../media/los-lagos-chiloe.jpg);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.verano h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.55rem;
+  margin-bottom: 15px;
+  font-weight: 650;
+}
+.verano img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.388);
+}
+.verano .grid-container-verano {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  column-gap: 30px;
+  row-gap: 45px;
+  margin: 45px 65px 45px;
+  /* Verano flexbox */
+}
+.verano .grid-container-verano .verano1, .verano .grid-container-verano .verano2, .verano .grid-container-verano .verano3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.verano .grid-container-verano .verano1 img, .verano .grid-container-verano .verano2 img, .verano .grid-container-verano .verano3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.verano .grid-container-verano .verano2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.verano .grid-container-verano .verano3 img {
+  width: 100%;
+  height: 100%;
+}
+
+/*Actividades de Invierno*/
+.invierno-Banner {
+  background-image: url(../media/san-pedro-de-atacama-laguna-miscanti.jpg);
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 200px;
+  align-items: left;
+}
+
+.invierno h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.55rem;
+  margin-bottom: 15px;
+  font-weight: 650;
+}
+.invierno img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.388);
+}
+.invierno .grid-container-invierno {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  column-gap: 30px;
+  row-gap: 45px;
+  margin: 45px 65px 45px;
+  /* Verano flexbox */
+}
+.invierno .grid-container-invierno .invierno1, .invierno .grid-container-invierno .invierno2, .invierno .grid-container-invierno .invierno3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.invierno .grid-container-invierno .invierno1 img, .invierno .grid-container-invierno .invierno2 img, .invierno .grid-container-invierno .invierno3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.invierno .grid-container-invierno .invierno2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.invierno .grid-container-invierno .invierno3 img {
+  width: 100%;
+  height: 100%;
+}
+
+/*contacto.html*/
+.contactobanner {
+  background-image: url(../media/los-lagos-volcan-osorno.jpg);
+  background-position: top;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.contactobanner h1 {
+  font-size: 4rem;
+  border-radius: 10px;
+  text-shadow: -1px -1px 11px rgba(184, 188, 185, 0.535);
+  padding: 10px;
+  background-color: rgba(147, 150, 150, 0.395);
+  font-weight: 650;
+  font-family: "Lato", sans-serif;
+}
+
+/* Footer */
+footer {
+  background-color: #81d8d0;
+}
+footer p {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+footer .container-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "logo   copy";
+}
+footer .logo img {
+  width: 180px;
+  padding: 10px;
+}
+footer .copy {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .grid-container .grid-items {
+    grid-template-columns: repeat(1, 100%);
+  }
+  /* Actividades de Verano */
+  .verano .grid-container-verano {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* Actividades de Invierno */
+  .invierno .grid-container-invierno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .grid-container .grid-items {
+    grid-template-columns: repeat(2, 50%);
+  }
+  /* Actividades de Verano */
+  .verano .grid-container-verano {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* Actividades de Invierno */
+  .invierno .grid-container-invierno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .grid-container .grid-items {
+    grid-template-columns: repeat(3, 33.3%);
+  }
+  /* Actividades de Verano */
+  .verano .grid-container-verano {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* Actividades de Invierno */
+  .invierno .grid-container-invierno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+  .grid-container .grid-items {
+    grid-template-columns: repeat(4, 25%);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

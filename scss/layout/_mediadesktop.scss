@@ -1,0 +1,7 @@
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+    .grid-container .grid-items {
+        grid-template-columns: repeat(4, 25%);
+    }
+    } 
+

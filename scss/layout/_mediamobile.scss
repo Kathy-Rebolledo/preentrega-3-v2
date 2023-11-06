@@ -1,0 +1,21 @@
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    .grid-container .grid-items {
+        grid-template-columns: repeat(1, 100%);
+    }
+
+
+    /* Actividades de Verano */
+    .verano .grid-container-verano {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    /* Actividades de Invierno */
+    .invierno .grid-container-invierno {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+} 

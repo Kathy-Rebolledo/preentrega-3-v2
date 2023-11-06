@@ -1,0 +1,39 @@
+@import '../base/fonts';
+
+/*Conoce Chile*/
+section {
+    div{
+        h1{
+            margin-top: 3rem;
+            font-size: 4rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            font-family: $font-family;
+        }
+    }
+    div{
+        img{
+            margin-bottom: 1rem;
+            display: block;
+            position: relative;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+        }
+    }
+    .texto {
+        padding: 20px;
+        h2{
+            font-size: 2rem;
+            font-family: $font-family;
+        }
+        p{
+            font-size: 1rem;
+            font-family: $font-family;
+        }
+    }
+}
+
+
+
